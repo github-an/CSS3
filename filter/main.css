@@ -1,0 +1,48 @@
+html,body,div,ul,li{
+    margin: 0;
+    padding: 0;
+}
+ul, li {
+	list-style-type: none;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.container{
+    width: 100%;
+    height: 100%;
+position: relative; 
+}
+
+.container ul{
+    padding-top: 10%;
+    display: inline-block;
+}
+
+.container  li{
+   width: 15vw;
+   float: left;
+   margin: 20px;
+  
+}
+
+.card{
+width: 100%;
+background-size: cover;
+padding-bottom: 150%;
+border-radius: 8px;
+
+}
+
+.bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(./resource/images/bg.jpg)  center / cover;
+    z-index: -1;
+    filter: blur(5px);
+}
